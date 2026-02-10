@@ -2,7 +2,8 @@
 
 Passly is a secure and modern password manager built with **Next.js 15**, **Supabase**, and **Kinde Auth**. It provides 256-bit AES encryption to keep your credentials safe and accessible from anywhere with a premium glassmorphism interface.
 
-> Developed by [Ram (Ram6023)](https://github.com/Ram6023)
+> Developed by [Ram (Ram6023)](https://github.com/Ram6023)  
+> **🔗 Live Demo:** [https://passly-seven.vercel.app/](https://passly-seven.vercel.app/)
 
 ## ✨ Features
 
@@ -57,7 +58,7 @@ Passly is a secure and modern password manager built with **Next.js 15**, **Supa
    KINDE_ISSUER_URL="https://your-domain.kinde.com"
    KINDE_SITE_URL="http://localhost:3000"
    KINDE_POST_LOGOUT_REDIRECT_URL="http://localhost:3000"
-   KINDE_POST_LOGIN_REDIRECT_URL="http://localhost:3000/dashboard"
+   KINDE_POST_LOGIN_REDIRECT_URL="http://localhost:3000/pw"
 
    # Encryption
    SECRET_KEY="your-random-hex-key"
@@ -98,7 +99,7 @@ npm run dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the app!
+Open [http://localhost:3000](http://localhost:3000) or visit the live link at [https://passly-seven.vercel.app/](https://passly-seven.vercel.app/) to see the app!
 
 ## 📜 License
 
