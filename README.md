@@ -5,7 +5,7 @@ Passly is a secure and modern password manager built with **Next.js 15**, **Supa
 > Developed by [Ram (Ram6023)](https://github.com/Ram6023)  
 > **🔗 Live Demo:** [https://passly-seven.vercel.app/](https://passly-seven.vercel.app/)
 
-![Passly Landing Page](./public/screenshot.png)
+![Passly Landing Page](public/screenshot.png)
 
 ## ✨ Features
 
