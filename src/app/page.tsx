@@ -20,7 +20,7 @@ export default async function Home() {
           rel="noopener noreferrer"
           className="hover:text-green-500 hover:underline"
         >
-          Ram💙
+          Ram 💙
         </a>
       </footer>
       <div className="absolute bg-green-700/20 -left-20 top-0 blur-3xl w-96 h-60 rounded-full z-0" />
