@@ -36,9 +36,9 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <AuthProvider>
-      <html lang="en">
-        <body className={fonty.className + " relative overflow-x-hidden"}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={fonty.className + " relative overflow-x-hidden"}>
+        <AuthProvider>
           <ThemeProvider attribute="class" defaultTheme="dark">
             <Suspense>
               <Navbar />
@@ -46,8 +46,8 @@ export default async function RootLayout({
             <div className="mx-auto caret-primary">{children}</div>
             <Toaster richColors position="top-center" theme="dark" />
           </ThemeProvider>
-        </body>
-      </html>
-    </AuthProvider>
+        </AuthProvider>
+      </body>
+    </html>
   );
 }
